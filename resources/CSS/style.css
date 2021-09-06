@@ -1,0 +1,286 @@
+/* Règles générales */
+@font-face {
+    font-family: "Indieflower";
+    src: url(../Fonts/Indie_Flower/IndieFlower-Regular.ttf);
+    }
+
+@font-face {
+    font-family: "Opensansbold";
+    src: url(../Fonts/Open_Sans/OpenSans-Bold.ttf);
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color:white;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(43, 26, 145, 0.5);
+    color: white;
+}
+
+
+
+h2{
+    
+    color: black;
+}
+
+/*  barre de navigation et hero image */
+header{
+    height: 680px;
+    margin: 20px 80px 100px 80px;
+    
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 90%;
+    height: 70%;
+    object-fit: fill;
+    
+}
+
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* border-bottom: 2px solid black; */
+  
+
+    
+}
+
+header ul{
+    display: flex;
+    padding: 0  1rem 0 1rem;
+    justify-content: space-between ;
+    width: 500px;
+    align-items: center;
+    height: 100%;
+    /* background-color: rgb(43, 26, 145); */
+    
+}
+
+nav li{
+    list-style-type: none;
+
+}
+
+header a{
+    color: black;
+    padding: 5px;
+    font-family: "Opensansbold";
+    font-size: 0.8rem;
+     background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+
+
+.presentation-box{
+    background-image: url(../images/atikh-bana-Ycds6emp7BA-unsplash_rogn.jpg);
+    box-shadow: inset 680px 1200px 0 0 rgba(211,211,211, 0.4);
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.titre-pp{
+    width: fit-content;
+    padding: 20px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+/*  Les services  */
+
+.service{
+    /* padding-bottom: 50px; */
+    text-align: center;
+    /* background-image: url(../images/cesar-couto-pC2xOplxsVs-unsplash.jpg); */
+    margin-bottom: 50px;
+    
+    
+}
+.titre-service{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.list-service{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+    box-shadow: inset 680px 1200px 0 0 rgba(211,211,211, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 80px;
+    border:1px solid black;
+    border-radius: 10px;
+   
+}
+
+.list-service a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 20px;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+ 
+    
+    
+}
+.service-img{
+    width: 20%;
+    margin: 0 20px;
+    
+    
+}
+
+img{
+    width: 100%;
+    height: 75%;
+    border-radius: 12px;
+}
+
+/* Partie présentation équipe */
+.equipe{    
+    margin: 0 80px 80px 80px;
+    border-radius: 12px;
+    /* /* background-repeat: repeat ;
+    background-attachment: fixed; */
+    display: flex; 
+    justify-content: center;
+    border: thick double black;
+    background-image: url(../images/nick-fewings-f2Bi-VBs71M-unsplash.jpg);
+    box-shadow: inset 680px 1200px 0 0 rgba(211,211,211, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+
+.equipe-img{
+    display: flex;
+    height: 400px;
+}
+
+.list-equipe{
+    width: 80%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+.titre-equipe{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.equipe-img{
+    width: 40%;
+    padding: 50px 0;
+
+}
+
+.equipe-img img{
+    width: 50%;
+    height: 100%;
+    border-radius: 0 12px 12px 0;
+}
+
+.equipe-img p{
+    width: 50%;
+    border-radius: 12px 0 0 12px;
+    padding-top: 50px;
+    background-color:black;
+    color: white;
+}
+
+/* Styling du footer */
+
+footer{
+    padding-top: 20px;
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    
+    /* border: 3px solid green;*/
+}
+form{
+    text-align: center;
+}
+footer h3{
+    color: white;
+}
+
+footer li{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+ 
+footer a{
+ 
+    color: white;
+}
+
+/* .reseaux-sociaux{
+    max-width: 11%;
+    height: 20%;
+
+}
+
+.img-rs{
+    max-height: 100%;
+    max-width:  100%; ;
+}
+.img-rs img{
+    max-height: 100%;
+    max-width: 100%;
+} */
